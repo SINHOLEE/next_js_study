@@ -10,7 +10,7 @@ const About = () => {
         <div>
             <ul>
                 {ids.map(id => <li key={id}>
-                    <Link href={`${id}`}>
+                    <Link href={`/about/${id}`}>
                         <a>{id}로 가는 법</a>
                     </Link>
                 </li>)}
@@ -28,3 +28,5 @@ const About = () => {
 };
 
 export default About;
+
+
