@@ -16,6 +16,12 @@ export default function Home() {
           Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <h1 className={styles.title}>
+          go to {' '}
+          <Link href='/dashboard'>
+            <a href="https://nextjs.org">dashboard</a>
+          </Link>
+        </h1>
+        <h1 className={styles.title}>
           go to  <a href="http://localhost:3000/about">about</a>
         </h1>
         <h1 className={styles.title}>
